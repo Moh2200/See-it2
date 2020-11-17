@@ -5,8 +5,11 @@ body{
     font-size: 18px;
 }
 header{
-    background-color: #6A8A82;
+    background-color: black;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 #logo{
     display: block;
@@ -17,7 +20,7 @@ header{
 }
 nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 nav a {
     text-decoration: none;
@@ -27,7 +30,7 @@ nav a {
     color: white;
 }
 nav a:hover{
-    background-color: white;
+    background-color: #fdcfb3;
     color: black;
 }
 #show{
@@ -49,7 +52,7 @@ nav a:hover{
     margin-left: auto;
     width: 85%;
     padding: 15px;
-    color: #67625f;
+    color: #fdcfb3;
 }
 .dropdown{
     display: flex;
@@ -76,7 +79,7 @@ nav a:hover{
     flex-direction: column;
 }
 .title{
-    background-color: #6A8A82;
+    background-color: black;
     width: 40%;
     margin-right: auto;
     margin-left: auto;
@@ -90,7 +93,7 @@ nav a:hover{
     width: 40%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #6A8A77;
+    background-color: #343434;
 }
 .explanation .content{
     display: flex;
@@ -99,13 +102,13 @@ nav a:hover{
 }
 .explanation .content a{
     padding: 12px;
-    color: white;
+    color:white ;
     text-transform: capitalize;
     text-decoration: none;
     font-size: 18px;
 }
 .content a:hover{
-    color: black;
+    color: #fdcfb3;
     font-weight: bold;
 }
 
@@ -115,12 +118,15 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #6A8A82;
+    background-color: black;
     color: #e7e7e7;
 }
 
 
 @media(max-width: 750px) {
+    header{
+        flex-direction: column;
+    }
     nav{
         flex-direction: column;
         margin-top: 25px;
