@@ -45,9 +45,27 @@ nav a:hover, nav a:focus{
     display: flex;
     flex-direction: column;
 }
+#degrees h2{
+    color: #e7e7e7;
+    background-color: #343434;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    box-shadow: 0 8px 15px 0 rgba(0,0,0, 0.4);
+}
 .degree{
     display: flex;
     flex-direction: row;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    padding: 15px;
+    color: #fdcfb3;
+}
+.links{
+    display: flex;
+    flex-direction: column;
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -60,7 +78,8 @@ nav a:hover, nav a:focus{
     flex-direction: column;
 }
 .drop-list1{
-    display: none;
+  color: black;
+    text-decoration: none;
     margin-left: 20px;
 }
 .drop-list2{
