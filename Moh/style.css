@@ -42,7 +42,8 @@ nav a:hover, nav a:focus{
     background-image: url("images/bakground.jpg");
     background-size: cover;
     background-position: top;
-    height: 60vh;
+    height: 70vh;
+
 }
 #degrees{
     display: flex;
@@ -52,6 +53,7 @@ nav a:hover, nav a:focus{
     color: #e7e7e7;
     background-color: #343434;
     width: 30%;
+    margin-top: 5%;
     margin-left: 35%;
     text-align: center;
     box-shadow: 0 8px 15px 0 rgba(0,0,0, 0.4);
@@ -185,6 +187,7 @@ footer{
     .explanation .content{
         margin-left: 20%;
     }
+
 }
 
 @media (max-width: 375px) {
