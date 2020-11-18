@@ -145,6 +145,10 @@ footer{
     background-color: black;
     color: #e7e7e7;
 }
+.icons img:hover,.icons img:focus{
+  border: 2px solid #fdcfb3;
+  outline-color: none;
+}
 
 
 @media(max-width: 750px) {
