@@ -192,6 +192,9 @@ footer{
     .txt-tittle{
         width: 60%;
     }
+    #degrees h2{
+      font-size: 18px;
+    }
 }
 @media (max-width: 250px) {
     .explanation .content{
@@ -223,5 +226,8 @@ footer{
     }
     footer p{
         font-size: 14px;
+    }
+    #degrees h2{
+      font-size: 14px;
     }
 }
