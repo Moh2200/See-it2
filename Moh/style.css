@@ -37,12 +37,9 @@ nav a:hover, nav a:focus{
     color: black;
     outline: none;
 }
-#show{
+#show img{
     width: 100%;
-    background-image: url("images/bakground.jpg");
-    background-size: cover;
-    background-position: top;
-    height: 70vh;
+    height: 80vh;
 
 }
 #degrees{
